@@ -1,15 +1,13 @@
-/* * {
-	border: 1px dashed red;
-	min-height: 10px;
-} */
 
 * {
 	font-family: "Comic Neue", cursive;
 	font-weight: bold;
 }
+
 body {
 	background: black;
 }
+
 p {
 	font-size: 1.21em;
 	line-height: 1.2em;
@@ -19,14 +17,12 @@ p {
 	background: white;
 	width: 525px;
 	height: 375px;
-
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	margin: auto;
-
 	overflow: hidden;
 }
 .postcard-header {
@@ -42,10 +38,12 @@ p {
 	width: 525px;
 	margin-top: 35px;
 }
+
 .postcard-body {
 	display: flex;
 	margin: -12px 10px 0 10px;
 }
+
 .body-left {
 	width: 150%;
 }
@@ -59,24 +57,24 @@ p {
 .body-right input,
 textarea {
 	margin: 15px 0 0 10px;
-
 	color: rgb(144, 144, 144);
 	font-size: 1.15em;
-
 	border: 0;
 	border-bottom: 2px solid;
 	outline: none;
-
 	resize: none;
 }
+
 input:focus,
 textarea:focus {
 	color: #000;
 }
+
 .postcard-footer {
 	text-align: center;
 	padding-top: 5%;
 }
+
 button {
 	background-color: rgb(191, 191, 191);
 	font-size: 1.2em;
@@ -87,3 +85,8 @@ button {
 button:active {
 	border-color: #000 #aaaaaa7a #aaaaaa7a #000;
 }
+
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+} */
